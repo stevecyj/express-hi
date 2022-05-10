@@ -15,7 +15,7 @@ router.get("/clothes", (req, res, next) => {
   };
   clothesArray.push(clothes);
   clothesArray.push(clothes2);
-  res.json(clothesArray);
+  res.send(clothesArray);
 });
 
 module.exports = router;
